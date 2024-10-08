@@ -1,6 +1,6 @@
 package POO.ejintpokemon;
 
-public class Charmander extends Pokemon {
+public class Charmander extends Pokemon implements IFuego {
     @Override
     protected void atacarPlacaje() {
         System.out.println("Charmander ataca con placaje");
@@ -14,5 +14,20 @@ public class Charmander extends Pokemon {
     @Override
     protected void atacarMordisco() {
         System.out.println("Charmander ataca con mordisco");
+    }
+
+    @Override
+    public void atacarPunioFuego() {
+        System.out.println("Charmander ataca con puño fuego");
+    }
+
+    @Override
+    public void atacarLanzallamas() {
+        System.out.println("Charmander ataca con lanzallamas");
+    }
+
+    @Override
+    public void atacarAscuas() {
+        System.out.println("Charmander ataca con ascuas");
     }
 }
