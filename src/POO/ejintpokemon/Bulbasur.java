@@ -2,6 +2,9 @@ package POO.ejintpokemon;
 
 public class Bulbasur extends Pokemon implements IPlanta {
 
+    public Bulbasur() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Bulbasur ataca con placaje");

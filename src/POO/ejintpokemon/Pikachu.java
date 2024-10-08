@@ -1,6 +1,10 @@
 package POO.ejintpokemon;
 
 public class Pikachu extends Pokemon implements IElectrico {
+
+    public Pikachu() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Pikachu ataca con placaje");
