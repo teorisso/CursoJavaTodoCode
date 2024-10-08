@@ -17,4 +17,6 @@ public class Cuadrado extends Figura {
         double resultado = lado * lado;
         return resultado;
     }
+
+
 }
